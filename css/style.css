@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header {
+  height: 80px;
+  display: flex;
+  padding: 0 20%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #091e3d;
+}
+.logo {
+  height: 100%;
+}
+.header > ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.header > ul a {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+.presentation {
+  background-color: #091e3d;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0 20%;
+}
+.presentation-info,
+.presentation-img {
+  width: 50%;
+  padding: 75px 0;
+}
+.presentetion-info_title {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+.presentetion-info_text {
+  padding: 40px 0;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.presentetion-info_button {
+  display: block;
+  width: 150px;
+  background-color: #3882f6;
+  border-radius: 5px;
+  padding: 6px 16px;
+  border: none;
+  color: #f9faf8;
+}
+.presentation-img {
+  display: flex;
+  align-items: center;
+}
+.presentation-img > img {
+  max-width: 100%;
+  box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.75);
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+}
+.information-title {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #091e3d;
+  margin-bottom: 3rem;
+}
+.information-team {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.information-team_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  max-width: 250px;
+  font-size: 17px;
+}
+.information-team_card > img {
+  flex: 1;
+  max-width: inherit;
+  border: #3882f6 3px solid;
+  border-radius: 10px;
+}
+.testimonial {
+  background-color: #e5e7eb;
+}
+.testimonial,
+.contact {
+  display: flex;
+  justify-content: center;
+}
+.quote {
+  width: 800px;
+  padding: 5rem 0;
+}
+.testimonial-quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+.testimonial-cite {
+  text-align: right;
+  font-weight: bold;
+}
+.contact-card {
+  width: 50%;
+  background-color: #3882f6;
+  padding: 3rem 6rem;
+  margin: 4rem;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.contact-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+   width: 150px;
+  background-color: #3882f6;
+  border-radius: 5px;
+  padding: 6px 16px;
+  border: 2px white solid;
+  color: #f9faf8;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #091e3d;
+  color: white;
+}
